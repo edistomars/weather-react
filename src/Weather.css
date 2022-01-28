@@ -1,0 +1,63 @@
+.Weather {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  background: #e7e6e1;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.Weather .float-left {
+  float: left;
+}
+
+.Weather .overview {
+  margin-bottom: 20px;
+}
+
+.Weather .weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+
+.Weather .weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+.Weather .weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+.Weather a:link {
+  text-decoration: none;
+}
+.Weather .weather-forecast {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(33, 33, 33);
+}
+
+.Weather .weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.8;
+}
+.Weather .weather-forecast-min {
+  opacity: 0.8;
+}
+
+.Weather .weather-forecast-temperature {
+  font-size: 13px;
+}
