@@ -85,6 +85,17 @@ export default function Weather() {
             </div>
           </div>
         </div>
+        <small>
+          {" "}
+          <a
+            href="https://github.com/edistomars/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by Marla Laystrom
+        </small>
       </div>
     </div>
   );
