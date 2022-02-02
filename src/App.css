@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  background: #1c1124;
 }
 
 h1 {
@@ -34,4 +35,8 @@ li::first-letter {
 
   margin: 20px auto;
   max-width: 600px;
+}
+
+.githubLink {
+  color: #fcfafa;
 }

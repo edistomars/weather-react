@@ -9,7 +9,7 @@ import "./App.css";
 ReactDOM.render(
   <React.StrictMode>
     <div className="App">
-      <Weather />
+      <Weather defaultCity="Chicago" />
     </div>
   </React.StrictMode>,
   document.getElementById("root")
