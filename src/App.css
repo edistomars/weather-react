@@ -30,7 +30,8 @@ li::first-letter {
   text-transform: capitalize;
 }
 
-.App {
+.App,
+.githubLink {
   font-family: sans-serif;
 
   margin: 20px auto;
@@ -39,4 +40,5 @@ li::first-letter {
 
 .githubLink {
   color: #fcfafa;
+  padding: 20px;
 }
