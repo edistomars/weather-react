@@ -30,15 +30,16 @@ li::first-letter {
   text-transform: capitalize;
 }
 
+footer {
+  color: #fcfafa;
+  text-align: center;
+  font-size: 11px;
+}
+
 .App,
-.githubLink {
+footer {
   font-family: sans-serif;
 
   margin: 20px auto;
   max-width: 600px;
-}
-
-.githubLink {
-  color: #fcfafa;
-  padding: 20px;
 }

@@ -70,18 +70,9 @@ export default function Weather(props) {
               <WeatherInfo data={weatherData} />
               <WeatherForecast coordinates={weatherData.coordinates} />
             </div>
-            <div className="weather-forecast">
-              <div className="row">
-                <div className="col-2">
-                  <div className="weather-forcast-date">
-                    <div className="weather-forcast-temperature"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
-        <small className="githubLink">
+        <footer>
           {" "}
           <a
             href="https://github.com/edistomars/weather-react"
@@ -90,8 +81,15 @@ export default function Weather(props) {
           >
             Open-source code
           </a>{" "}
-          by Marla Laystrom
-        </small>
+          by Marla Laystrom and{" "}
+          <a
+            href="https://thirsty-knuth-cb5624.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     );
   } else {
